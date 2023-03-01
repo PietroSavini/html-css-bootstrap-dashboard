@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bootstrap Dashboard</title>
+    <!-- bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <!-- css -->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <!-- fontawesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+    <!-- Web App wrapper -->
+    <div class="wrapper d-flex flex-column ">
+        <!-- header -->
+        <header>
+            <nav class="navbar navbar-expand-sm flex-nowrap bg-body-tertiary">
+                <div class="container-fluid d-flex">
+                    <div class="ms_col d-flex align-items-center">
+                        <a href="" class="navbar-brand"><img class="img-mobile" src="img/mobile-logo.png" alt=""></a>
+                        <a class="navbar-brand no-disp" href="#"><img src="img/logo.svg" alt=""></a>
+                    </div>
+
+                    <div class="ms_col  container-fluid ">
+                        <form class="d-flex align-items-center" role="search">
+                            <button class="ms_btn ms_search" type="submit"><i class="fa-solid fa-magnifying-glass"></i></button>
+                            <input class="form-control ms_search me-2" type="search" placeholder="Prova a cercare: Lezioni di Lavarel" aria-label="Search">
+                        </form>
+                    </div>
+
+                    <div class="ms_col d-flex align-items-center">
+                        <div class="collapse navbar-collapse" id="navbarSupportedContent"></div>
+                        <ul class="navbar-nav me-auto  mb-lg-0">
+
+                            <li class="nav-item no-disp">
+                                <a href="" class="nav-link"><i class="fa-solid fa-list-ul"></i></a>
+                            </li>
+
+                            <li class="nav-item no-disp">
+                                <a href="" class="nav-link"><i class="fa-solid fa-circle-question"></i></a>
+                            </li>
+
+                            <li class="nav-item no-disp">
+                                <a href="" class="nav-link"><i class="fa-solid fa-ellipsis-vertical"></i></a>
+                            </li>
+
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false"><i class="fa-solid fa-bell"></i></a>
+                                <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">Profilo</a></li>
+                                <li><a class="dropdown-item" href="#">Fatturazione</a></li>
+                                <li><a class="dropdown-item" href="#">logout</a></li>
+                                </ul>
+                            </li>
+                            
+                        </ul>
+                    </div>     
+                </div>
+            </nav>
+        </header>
+        <!-- header -->
+
+        <!-- main (used as wrapper)-->
+        <main class="d-flex">
+            <!-- sidebars -->
+            <!-- mobile sidebar -->
+            <div class="mobile-sidebar sidebar d-flex flex-column align-items-center py-3 px-2">
+                <div class="text-center">
+                    <ul>
+                        <li><a href=""><i class="fa-solid fa-house"></i></a></li>
+                        <li><a href=""><i class="fa-solid fa-chart-simple"></i></a></li>
+                        <li><a href=""><i class="fa-solid fa-signal"></i></a></li>
+                    </ul>
+                </div>
+                <div>
+
+                </div>
+            </div>
+            <!-- /mobile sidebar -->
+
+            <!-- normal sidebar -->
+            <div class="normal-sidebar sidebar no-disp"></div>
+            <!-- /normal sidebar -->
+            <!-- sidebars -->
+
+            <!-- main content -->
+            <!-- /main content -->
+        </main>
+    </div>
+</body>
+</html>

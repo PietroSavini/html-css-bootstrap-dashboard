@@ -1,0 +1,9 @@
+@media screen and (min-width:768px){
+    .no-disp{
+        display: inline-block;
+    }
+
+    .img-mobile{
+        display: none;
+    }
+}

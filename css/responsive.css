@@ -6,4 +6,12 @@
     .img-mobile{
         display: none;
     }
+
+    .sidebar{
+        width: 130px;
+    }
+
+    .sidebar ul li{
+        text-align: left;
+    }
 }

@@ -112,16 +112,12 @@ main{
     height: calc(100% - 60px);
     width: 100%;
 }
-/* sidebars-------------------------------------------------- */
+/* sidebar-------------------------------------------------- */
 .sidebar{
     background-color: var(--sidebar-bg) ;
     background-image: url(../img/sidebar-bg.png);
     height: 100%;
     color: #fff;
-}
-
-/* mobile sidebar */
-.mobile-sidebar{
     width: 70px;
 }
 
@@ -137,9 +133,21 @@ main{
 .sidebar a{
     color: inherit;
 }
+
 .sidebar ul li{
     padding: .5rem ;
 }
+
 .sidebar ul li:hover{
     background-color: rgba(244, 244, 244, .5);
+}
+
+.sidebar p{
+    font-size: 1rem;
+    margin-left: 1rem ;
+    margin-bottom: 0;
+}
+
+.sidebar div ul li:nth-child(2n) i{
+    margin-right: .2rem;
 }

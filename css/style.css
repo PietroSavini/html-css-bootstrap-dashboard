@@ -8,6 +8,7 @@ img{
 :root{
     /* colors */
     --sidebar-bg:#051E34;
+    --blue-primary:#1B72E8;
 }
 
 .wrapper{
@@ -87,7 +88,7 @@ header .nav-link{
 }
 
 .dropdown-toggle::after{
-    display: none;    
+    display: none;
 }
 
 .dropdown a i{
@@ -150,4 +151,39 @@ main{
 
 .sidebar div ul li:nth-child(2n) i{
     margin-right: .2rem;
+}
+
+/* main content----------------------------------------------------------------------- */
+/* jumbotron */
+.main-content{
+    width: 100%;
+}
+
+.jumbotron{
+    background-color: var(--blue-primary) ;
+    color: #fff;
+}
+
+.ms_button{
+    background-color: transparent;
+    border: 1px solid #fff;
+}
+
+
+.offcanvas-layout1{
+    width: 45%;
+}
+
+.input-group label{
+    display: block;
+}
+
+.offcanvas p{
+    margin-bottom: .2rem ;
+}
+
+.offcanvas .dropdown-menu{
+    overflow-y: auto;
+    max-height: 150px;
+    scroll-behavior: smooth;
 }

@@ -1,3 +1,10 @@
+@media screen and (min-width: 576px){
+    .offcanvas.offcanvas-end{
+        width: 70%;
+    }
+
+}
+
 @media screen and (min-width:768px){
     .no-disp{
         display: inline-block;
@@ -14,4 +21,20 @@
     .sidebar ul li{
         text-align: left;
     }
+
+    .offcanvas.offcanvas-end{
+        width: 40%;
+    }
+    
+}
+
+@media screen and (max-width: 576px) {
+    .main-content .row{
+        flex-direction: column;
+    }
+
+    .offcanvas.offcanvas-end{
+        width: 100%;
+    }
+
 }

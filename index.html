@@ -67,8 +67,7 @@
 
         <!-- main (used as wrapper)-->
         <main class="d-flex">
-            <!-- sidebars -->
-            <!-- mobile sidebar -->
+            <!-- sidebar -->
             <div class="sidebar d-flex flex-column align-items-center justify-content-between py-3 px-2">
                 <div class="text-center">
                     <ul>
@@ -84,10 +83,152 @@
                     </ul>
                 </div>
             </div>
-            <!-- /mobile sidebar -->
-            <!-- sidebar -->
+            <!--/ sidebar -->
 
             <!-- main content -->
+            <!-- jumbo inside main -->
+            <div class="main-content">
+                <div class="container-fluid jumbotron d-flex flex-column py-3">
+                    <div class="row">
+                        <div class="col d-flex align-items-center"> 
+                            <span>Nuovo studente</span>
+                            <button class="btn btn-primary ms-3 ms_button " type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasExample" aria-controls="offcanvasExample"><i class="fa-solid fa-plus"></i></button>
+                            <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
+                                <div class="offcanvas-header">
+                                  <h5 class="offcanvas-title" id="offcanvasExampleLabel">Inserisci un nuovo studente</h5>
+                                  <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                                </div>
+                                <div class="offcanvas-body">
+                                    <div class="d-flex justify-content-between">
+                                        <!-- name and surname -->
+                                        <div class="offcanvas-layout1">
+                                            <p>Nome</p>
+                                            <div class="input-group mb-3 ">
+                                                <input type="text" class="form-control" aria-label="name" aria-describedby="basic-addon1">
+                                            </div>
+                                        </div>
+                                    
+                                    
+                                        <div class="offcanvas-layout1">
+                                            <p>Cognome</p>
+                                            <div class="input-group mb-3 ">
+                                                <input type="text" class="form-control" aria-label="surname" aria-describedby="basic-addon1" >
+                                            </div>        
+                                        </div>
+                                    </div>
+                                    <!-- /name and surname -->
+
+                                    <!-- emails and passwords -->
+                                    <div class="d-flex justify-content-between">
+                                       
+                                        <div class="offcanvas-layout1">
+                                            <p>Email</p>
+                                            <div class="input-group mb-3">
+                                                <span class="input-group-text" id="basic-addon1">@</span>
+                                                <input type="text" class="form-control"  aria-label="Username" aria-describedby="basic-addon1">
+                                              </div>
+                                        </div>
+                                    
+                                    
+                                        <div class="offcanvas-layout1">
+                                            <p>Password</p>
+                                            <div class="input-group mb-3 ">
+                                                <input type="text" class="form-control" aria-label="" aria-describedby="basic-addon1" >
+                                            </div>        
+                                        </div>
+                                    </div>
+
+                                    <div class="d-flex justify-content-between">
+                                       
+                                        <div class="offcanvas-layout1">
+                                            <p>Email</p>
+                                            <div class="input-group mb-3 ">
+                                                <span class="input-group-text" id="basic-addon1">@</span>
+                                                <input type="text" class="form-control" aria-label="" aria-describedby="basic-addon1" >
+                                            </div>
+                                        </div>
+                                    
+                                    
+                                        <div class="offcanvas-layout1">
+                                            <p>Password</p>
+                                            <div class="input-group mb-3 ">
+                                                <input type="text" class="form-control" aria-label="surname" aria-describedby="basic-addon1" >
+                                            </div>        
+                                        </div>
+                                    </div>
+                                    <!-- /emails and passwords -->
+
+                                    <!-- Address -->
+                                    <p>Indirizzo</p>
+                                    <div class="input-group mb-3 ">
+                                        <input type="text" class="form-control" aria-label="surname" aria-describedby="basic-addon1" >
+                                    </div>       
+                                    <!-- /address -->
+                                    <ul class="d-flex gap-2 p-0 ">
+                                        <li>
+                                            <p>Città</p>
+                                            <div class="input-group mb-3 ">
+                                                <input type="text" class="form-control" aria-label="surname" aria-describedby="basic-addon1" >
+                                            </div>      
+                                        </li>
+
+                                        <li>
+                                            <p>Stato</p>
+                                            <div class="input-group">
+                                                <input type="text" class="form-control" aria-label="Text input with segmented dropdown button">
+                                                <button type="button" class="btn btn-outline-secondary dropdown-toggle dropdown-toggle-split" data-bs-toggle="dropdown" aria-expanded="false">
+                                                  <span class="visually-hidden">Toggle Dropdown</span>
+                                                  <i class="fa-solid fa-chevron-down"></i>
+                                                </button>
+                                                <ul class="dropdown-menu dropdown-menu-end ">
+                                                  <li><a class="dropdown-item" href="#">stato</a></li>
+                                                  <li><a class="dropdown-item" href="#">stato</a></li>
+                                                  <li><a class="dropdown-item" href="#">stato</a></li>
+                                                  <li><a class="dropdown-item" href="#">stato</a></li>
+                                                  <li><a class="dropdown-item" href="#">stato</a></li>
+                                                  <li><a class="dropdown-item" href="#">stato</a></li>
+                                                  <li><a class="dropdown-item" href="#">stato</a></li>
+                                                  <li><a class="dropdown-item" href="#">stato</a></li>
+                                                  <li><a class="dropdown-item" href="#">stato</a></li>
+                                                  <li><hr class="dropdown-divider"></li>
+                                                  <li><a class="dropdown-item" href="#">altro</a></li>
+                                                </ul>
+                                              </div>
+                                        </li>
+
+                                        <li>
+                                            <p>CAP</p>
+                                            <div class="input-group mb-3 ">
+                                                <input type="number" class="form-control" aria-label="surname" aria-describedby="basic-addon1" >
+                                            </div>      
+                                        </li>
+                                    </ul>
+
+                                    <!-- file selector -->
+                                    <p>Foto</p>
+                                    <div class="input-group mb-3">
+                                        <div class="custom-file">
+                                          <input type="file" class="custom-file-input form-control" id="inputGroupFile03" aria-describedby="inputGroupFileAddon03">
+                                          <label class="custom-file-label" for="inputGroupFile03"></label>
+                                        </div>
+                                    </div>
+                                    <div class="mb-3">
+                                        <input type="checkbox" name="" value="" id="">
+                                        <span class="ms-2 ">Seleziona per proseguire</span>
+                                    </div>
+                                    <button type="button" class="btn btn-primary">Salva</button>
+                                    <button type="button" class="btn btn-warning">Svuota</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col"></div>
+                        <div class="col"></div>
+                    </div>
+                </div>
+            </div>
+            
+            
+            <!-- /jumbo -->
             <!-- /main content -->
         </main>
     </div>

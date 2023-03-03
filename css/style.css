@@ -169,7 +169,6 @@ main{
     border: 1px solid #fff;
 }
 
-
 .offcanvas-layout1{
     width: 45%;
 }
@@ -186,4 +185,9 @@ main{
     overflow-y: auto;
     max-height: 150px;
     scroll-behavior: smooth;
+}
+
+.badge-secondary{
+    background-color: rgba(0, 0, 0, .2);
+    border-radius: 15px;
 }

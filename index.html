@@ -89,8 +89,10 @@
             <!-- jumbo inside main -->
             <div class="main-content">
                 <div class="container-fluid jumbotron d-flex flex-column py-3">
-                    <div class="row">
-                        <div class="col d-flex align-items-center"> 
+                    <div class="row justify-content-between">
+
+                        <!-- offcanvas on "nuovo studente" -->
+                        <div class="col-3 d-flex align-items-center mb-3 order-sm-3 justify-content-sm-end"> 
                             <span>Nuovo studente</span>
                             <button class="btn btn-primary ms-3 ms_button " type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasExample" aria-controls="offcanvasExample"><i class="fa-solid fa-plus"></i></button>
                             <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
@@ -107,7 +109,6 @@
                                                 <input type="text" class="form-control" aria-label="name" aria-describedby="basic-addon1">
                                             </div>
                                         </div>
-                                    
                                     
                                         <div class="offcanvas-layout1">
                                             <p>Cognome</p>
@@ -219,10 +220,30 @@
                                     <button type="button" class="btn btn-primary">Salva</button>
                                     <button type="button" class="btn btn-warning">Svuota</button>
                                 </div>
+                            </div> 
+                        </div>
+                        <!-- /offcanvas on "nuovo studente" -->
+
+                        <!-- col "boolean" with badges -->
+                        <div class="col-5 mb-3">
+                            <h3 class="d-inline-block me-2 ">Boolean </h3><span class="badge badge-secondary">Piano Blaze</span>
+                            <div>
+                                <span class="badge badge-secondary">3 app</span>
+                                <i class="fa-solid fa-angles-right"></i>
+                                <span class="badge badge-secondary no-disp">Boolean mobile app</span>
+                                <span class="badge badge-secondary no-disp">Boolean we app</span>
+                                <span class="badge badge-secondary no-disp">Boolean blog app</span>
+                                <span class="badge badge-secondary mobile-only"><i class="fa-solid fa-plus"></i></span>
                             </div>
                         </div>
-                        <div class="col"></div>
-                        <div class="col"></div>
+                        <!-- / col "boolean" with badges -->
+
+                        <!-- col active students -->
+                        <div class="col d-flex justify-content-center flex-column">
+                            <span>Studenti online negli ultimi 30 minuti:</span>
+                            <h3>125</h3>
+                        </div>
+                        <!-- /col active students -->
                     </div>
                 </div>
             </div>

@@ -157,6 +157,7 @@ main{
 /* jumbotron */
 .main-content{
     width: 100%;
+    overflow-y: auto;
 }
 
 .jumbotron{
@@ -191,3 +192,38 @@ main{
     background-color: rgba(0, 0, 0, .2);
     border-radius: 15px;
 }
+
+/* main content with cards ------------------------------------------------------------*/
+/* table */
+.table img{
+    max-width: 25px;
+}
+
+thead tr th:last-of-type{
+    min-width: 100px;
+}
+
+thead tr th:first-of-type{
+    text-align: left;
+}
+
+tbody tr th:first-of-type{
+    text-align: left;
+}
+
+/* personalized badjes */
+
+#done{
+    background-color: #1E885A !important;
+}
+
+#process{
+    background-color: #FFC107 !important;
+    
+}
+
+#failed{
+    background-color: #DC3545 !important;
+}
+
+/* faq */

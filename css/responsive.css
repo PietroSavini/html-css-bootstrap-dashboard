@@ -1,6 +1,6 @@
 @media screen and (min-width: 576px){
     .offcanvas.offcanvas-end{
-        width: 70%;
+        width: 100%;
     }
 
 
@@ -24,7 +24,7 @@
     }
 
     .offcanvas.offcanvas-end{
-        width: 40%;
+        width: 60%;
     }
     
     .mobile-only{
@@ -42,4 +42,19 @@
         width: 100%;
     }
 
+    thead tr th:nth-child(2){
+        display: none;
+    }
+    
+    thead tr th:nth-child(3){
+        display: none;
+    }
+    
+    tbody tr td:nth-child(2){
+        display: none;
+    }
+    
+    tbody tr td:nth-child(3){
+        display: none;
+    }
 }

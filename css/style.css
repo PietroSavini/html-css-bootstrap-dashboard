@@ -227,7 +227,7 @@ tbody tr th:first-of-type{
 }
 
 /* todo */
-.todo-checkbox-container{
+.ms_container{
     width: 100%;
     border: 1px solid rgba(0, 0, 0, 0.175);
     border-radius: var(--bs-border-radius);
@@ -235,6 +235,14 @@ tbody tr th:first-of-type{
 
 }
 
-.todo-checkbox-container hr{
+.ms_container hr{
     margin: .3rem 0;
 }
+
+/* card Graph + active users */
+
+.bordered-list{
+    margin: 0;
+    padding: 0;
+}
+

@@ -226,4 +226,15 @@ tbody tr th:first-of-type{
     background-color: #DC3545 !important;
 }
 
-/* faq */
+/* todo */
+.todo-checkbox-container{
+    width: 100%;
+    border: 1px solid rgba(0, 0, 0, 0.175);
+    border-radius: var(--bs-border-radius);
+    padding: .3rem 0;
+
+}
+
+.todo-checkbox-container hr{
+    margin: .3rem 0;
+}

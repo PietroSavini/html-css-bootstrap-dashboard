@@ -250,8 +250,13 @@
 
                 <!-- main content with cards -->
                 <div class="main-cards-layout container-fluid d-flex flex-column flex-lg-row py-3">
-                    <div class="main-cards-layout-60 col-lg-8 p-2">
-                        <div class="card">
+
+                    
+                    <!-- /first section 70% -->
+                    <div class="col-lg-7 p-2 ">
+
+                        <!-- first card with table -->
+                        <div class="card mb-3">
                             <h3 class="card-header">Prossime classi</h3>
                             <div class="card-body">
                                 <table class="table table-hover">
@@ -363,14 +368,92 @@
                                         </td>
                                       </tr>
                                     </tbody>
-                                  </table>
+                                </table>
                             </div>
-                          </div>
-                    </div>
+                        </div>
+                        <!-- first card with table -->
 
-                    <div class="main-cards-layout-30 col-lg-5 p-2">
+                        <!-- second card with FAQ -->
+                        <div class="card mb-3">
+                            <h3 class="card-header">F.A.Q.</h3>
+                            <div class="card-body">
+                                <div class="accordion" id="accordionExample">
+                                    <div class="accordion-item">
+                                      <h2 class="accordion-header" id="headingOne">
+                                        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                          Come aggiungere un nuovo studente?
+                                        </button>
+                                      </h2>
+                                      <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                                        <div class="accordion-body">
+                                          Clicca sul "+" in alto nella sezione blu.
+                                        </div>
+                                      </div>
+                                    </div>
+                                    <div class="accordion-item">
+                                      <h2 class="accordion-header" id="headingTwo">
+                                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                          Come posso accedere alle informazioni del mio account?
+                                        </button>
+                                      </h2>
+                                      <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                                        <div class="accordion-body">
+                                          Clicca sull icona della campanella.
+                                        </div>
+                                      </div>
+                                    </div>
+                                    <div class="accordion-item">
+                                      <h2 class="accordion-header" id="headingThree">
+                                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                          Posso usare questa dashboard da mobile?
+                                        </button>
+                                      </h2>
+                                      <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                                        <div class="accordion-body">
+                                            in teoria si non sapevo cosa c'era scritto.
+                                        </div>
+                                      </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- /second card with FAQ -->
 
                     </div>
+                    <!-- /first section 70% -->
+                    
+                    <!-- second section 30% -->
+                    <div class="col-lg-5 p-2">
+
+                        <!-- card todo -->
+                        <div class="card mb-3">
+                            <h3 class="card-header">Todo</h3>
+                            <div class="card-body">
+
+                                <div class="todo-checkbox-container">
+
+                                    <input type="checkbox" class="ms-3"> 
+                                    <span>Kickoff nuove classi</span>
+
+                                    <hr>
+
+                                    <div>
+                                        <input type="checkbox" class="ms-3"> 
+                                        <span>Lezione su Bootstrap 5 in classe #75</span>
+                                    </div>
+
+                                    <hr>
+
+                                    <div>
+                                        <input type="checkbox" class="ms-3"> 
+                                        <span>Controllare username Github studenti</span>
+                                    </div>
+                                    
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- /second section 30% -->
                 </div>
                 <!-- /main content with cards -->
             </div>
